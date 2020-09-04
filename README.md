@@ -4,7 +4,23 @@
 ```
 yarn add simba-ui  or  npm install simba-ui
 ```
+## Quick Start
 
+```
+import { createApp } from "vue";
+import SimbaUi from "simba-ui";
+import App from "./App.vue";
+
+createApp(App).use(SimbaUi).mount('#app')
+
+// or
+import {
+  SiButton
+  // ...
+} from 'simba-ui'
+
+Vue.use(SiButton)
+```
 ## Project setup
 ```
 yarn install
@@ -25,5 +41,3 @@ yarn build
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
