@@ -1,5 +1,10 @@
 # simba-ui
 
+## Install
+```
+yarn add simba-ui  or  npm install simba-ui
+```
+
 ## Project setup
 ```
 yarn install
